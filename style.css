@@ -1,0 +1,65 @@
+body{
+font-family:Arial;
+padding:20px;
+background-color: aquamarine;
+background-repeat: no-repeat;
+}
+.container{
+ align-content: center;
+ display: block;
+
+}
+.dataInput{
+width:50%;
+padding:8px;
+height: 10%;
+border-radius: 10px;
+}
+#searchInput{
+width:40%;
+padding:8px;
+height: 10%;
+border-radius: 10px;
+}
+#filterField{
+width:10%;
+padding:8px;
+height: 10%;
+border-radius: 10px;
+}
+
+.btn1{
+padding:8px;
+margin:5px;
+cursor:pointer;
+background-color: rgb(11, 34, 238);
+border-radius: 10px;
+}
+.btn2{
+padding:8px;
+margin:5px;
+cursor:pointer;
+background-color: chartreuse;
+border-radius: 10px;
+}
+.btn3{
+padding:8px;
+margin:5px;
+cursor:pointer;
+background-color: rgb(218, 26, 26);
+border-radius: 10px;
+}
+table{
+margin-top:20px;
+border-collapse:collapse;
+width:80%;
+height: 50%;
+border: 1px;
+}
+
+th,td{
+border:1px solid black;
+padding:6px;
+text-align:center;
+}
+

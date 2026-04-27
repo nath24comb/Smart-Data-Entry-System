@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<title>Smart Data Entry System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h2>Welcome To Smart Data Entry System</h2>
+
+<input id="dataInput" class="dataInput" placeholder="Enter any data separated by comma">
+<br/> <br/>
+<button  class="btn1"  onclick="addData()">Add</button>
+<button class="btn2" onclick="exportExcel()">Export</button>
+<button class="btn3" onclick="clearData()">Clear All</button>
+<input id="searchInput" placeholder="Search..."
+oninput="searchData()">
+
+<select  id="filterField"
+ onchange="searchData()"> 
+
+<option value="">All</option>
+<option value="name">Customer Name</option>
+<option value="email">Email</option>
+<option value="phone">Phone</option>
+<option value="product">Product</option>
+<option value="price">Price</option>
+</select><br><br>
+<table>
+
+<thead>
+<tr>
+
+<th>Customer Name</th>
+<th>Email</th>
+<th>Phone</th>
+<th>Product</th>
+<th>Price</th>
+<th>Action</th>
+
+</tr>
+</thead>
+
+<tbody id="tableBody"></tbody>
+
+</table><br>
+<div id="pagination"></div>
+<script src="script.js"></script>
+</div>
+</body>
+</html>
