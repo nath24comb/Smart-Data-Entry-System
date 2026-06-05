@@ -1,2 +1,2 @@
 # Smart-Data-Entry-System
-This is my first project in DecodeLabs Internship 
+This is my practical and problem solving front end smart data entry app
